@@ -1,0 +1,1 @@
+```javascript\nconst functions = require("firebase-functions");\nconst admin = require("firebase-admin");\nadmin.initializeApp();\n\nexports.createMatch = functions.https.onCall(async (data, context) => {\n const elo = data.elo
