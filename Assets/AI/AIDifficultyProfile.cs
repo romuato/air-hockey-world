@@ -1,0 +1,1 @@
+csharp\nusing UnityEngine;\n\n[CreateAssetMenu(menuName = \"AirHockey/AI Difficulty\")]\npublic class AIDifficultyProfile : ScriptableObject\n{\n [Range(0f, 0.5f)] public float ReactionTime = 0.3f;\n [Range(0f, 1f)] public float PredictionLag = 0.4f;\n [Range(5f, 40f)] public float MoveSpeed = 20f;\n}\n
